@@ -416,7 +416,7 @@ void clav::window::load_image(std::wstring const& path)
 												GENERIC_READ,
 												WICDecodeMetadataCacheOnDemand,
 												decoder.put()),
-		"CreateDecoderFromFilename");
+		"Usage: clav.exe [path/to/file.png]\n");
 
 	com_ptr<IWICBitmapFrameDecode> frame;
 	check_hresult(decoder->GetFrame(0, frame.put()), "GetFrame");
