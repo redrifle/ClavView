@@ -1,0 +1,2 @@
+#include "resource.h"
+IDI_MY_ICON ICON "..\\assets\\clavico.ico"

@@ -1,0 +1,12 @@
+CompileFlags:
+  Add: [-std=c++23]
+
+If:
+  PathMatch: build/.*
+  PathExclude: build/.*
+
+Index:
+  Background: Skip
+  
+Diagnostics:
+  Suppress: "*"
